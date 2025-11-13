@@ -29,7 +29,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
@@ -47,7 +50,11 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
@@ -65,7 +72,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
@@ -79,7 +89,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
@@ -130,7 +143,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
@@ -154,7 +170,8 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit --version</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git --version</code></pre>
 
 
 
@@ -186,7 +203,8 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install gitecho 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
+echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
 
 
 
@@ -198,7 +216,11 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_aliasgit clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
@@ -286,7 +308,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
@@ -300,7 +325,10 @@
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumbercd grep_getRowNumbercat search_file.txtgrep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
