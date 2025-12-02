@@ -4,7 +4,7 @@
 
 
 <div class="wp-block-group">
-<p>このリポジトリは、xargsコマンドを実行して他のコマンドが出力した文字列を|(パイプ)で受け取り整形します</p>
+<p>このリポジトリは、grepコマンドを実行して対象ファイルに記述された文字列に該当する行番号を取得します</p>
 </div>
 
 
@@ -26,7 +26,7 @@
 
 
 <div class="wp-block-group">
-<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、xargsコマンドを実行して出力結果が変化することを確認してください</p>
+<p>上記のコマンドをインストール済みの方は、以下のコマンドを実行してリポジトリからダウンロード後、ディレクトリを移動し、grepコマンドを実行して行番号を取得できます</p>
 
 
 
@@ -35,21 +35,15 @@
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-./example1.txt
-
-./folder1/example3.txt ./folder1/example2.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt ./example1.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 
@@ -65,21 +59,15 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
-git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 
@@ -95,21 +83,15 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder3/example5.txt
-./folder1/folder2/example4.txt
-
-./example1.txt ./folder1/example3.txt ./folder1/example2.txt ./folder1/folder3/example5.txt ./folder1/folder2/example4.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 
@@ -120,21 +102,15 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 </div>
@@ -185,25 +161,19 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
+<p>以下のコマンドを実行することで詳細のような行番号が出力されるはずです</p>
 
 
 
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-./example1.txt
-
-./folder1/example3.txt ./folder1/example2.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt ./example1.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 </details>
@@ -270,26 +240,20 @@ echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></
 
 
 <div class="wp-block-group">
-<p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
+<p>以下のコマンドを実行することで詳細のような行番号が出力されるはずです</p>
 
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
-git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 </details>
@@ -370,7 +334,7 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<p>以下のコマンドを実行することで詳細のような文字列が出力されるはずです</p>
+<p>以下のコマンドを実行することで詳細のような行番号が出力されるはずです</p>
 
 
 
@@ -379,21 +343,15 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example3.txt
-./folder1/example2.txt
-./folder1/folder3/example5.txt
-./folder1/folder2/example4.txt
-
-./example1.txt ./folder1/example3.txt ./folder1/example2.txt ./folder1/folder3/example5.txt ./folder1/folder2/example4.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 
@@ -404,21 +362,15 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 <div class="wp-block-group">
-<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/xargs_shapeString
-cd xargs_shapeString
-find . -type f -name "*.txt"
-find . -type f -name "*.txt" | xargs</code></pre>
+<pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>./example1.txt
-./folder1/example2.txt
-./folder1/example3.txt
-./folder1/folder2/example4.txt
-./folder1/folder3/example5.txt
-
-./example1.txt ./folder1/example2.txt ./folder1/example3.txt ./folder1/folder2/example4.txt ./folder1/folder3/example5.txt</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>3</code></pre>
 </details>
 </div>
 </div>
@@ -431,6 +383,4 @@ find . -type f -name "*.txt" | xargs</code></pre>
 
 
 
-<div class="wp-block-group">
-<p>複数行を空白区切りで一つの行に出力するのが特徴です</p>
-</div>
+<p>記号を検索文字列として使用するときは、\(バックスラッシュ)でエスケープする必要がある時があります。cutコマンドの-dオプションはデリミタで、直後の文字で|(パイプ)で受け取った文字列を分割しています。-f2で検索文字列が取得できるはずです。</p>
