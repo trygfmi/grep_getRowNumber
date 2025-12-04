@@ -1,0 +1,5 @@
+source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/grep_getRowNumber
+cd grep_getRowNumber
+cat search_file.txt
+grep -n K5m\!P7oR search_file.txt | cut -d: -f1
